@@ -1,0 +1,15 @@
+.animation {
+  position: absolute;
+  top: 250px;
+  left: 350px;
+  animation-name: anim;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+@keyframes anim {
+      0% {transform: rotate(0deg); left: 100px; top: 0px;}
+      35% {left: 200px; top: 200px;}
+      20% {left: 0px; top: 200px;}
+      55% {left: 100px; top: 0px;}
+      100% {transform: rotate(360deg); left: 100px; top: 0px;}
+}
