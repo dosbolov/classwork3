@@ -1,0 +1,50 @@
+html {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color:#00CEDb;
+    text-align: center;
+}
+.maintext {
+    background-color: black;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: black;
+}
+
+a {
+    color: black;
+}
+.text {
+    color: white;
+    background-color: black;
+}
+
+
+.news {
+    background-color: #AFEEEE;
+}
+@media screen and (min-width: 100px) and (max-width: 1028px) {
+    .news {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .newss {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      height: 300px;
+
+    }
+  }
+    
+
+
